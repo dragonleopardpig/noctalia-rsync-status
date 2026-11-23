@@ -1,0 +1,12 @@
+[[plugin]]
+id           = "local/rsync-status"
+name         = "Rsync Status"
+version      = "1.1.0"
+author       = "local"
+license      = "MIT"
+icon         = "arrows-transfer-up"
+description  = "Top bar rsync status indicator with graphical target/exclude editor and quick Rclone Control launch."
+deprecated   = false
+plugin_api   = 45
+tags         = ["sync", "backup", "rsync", "bar", "panel"]
+dependencies = ["rsync"]
